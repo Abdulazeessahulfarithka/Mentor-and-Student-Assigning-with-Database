@@ -1,4 +1,5 @@
 import express from "express";
+import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 import studentRouter from "./Routes/student.route.js";

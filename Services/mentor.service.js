@@ -8,5 +8,5 @@ export async function getAllMentors() {
     .toArray();
 }
 export async function addMentor(data) {
-  return await client.db("studentMentor").collection("mentor").insertOne(data);
+  return await client.db("studentmentor").collection("mentor").insertOne(data);
 }
